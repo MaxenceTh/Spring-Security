@@ -10,6 +10,19 @@ Guide officiel pour sécuriser une application web avec Spring Security :
 
 [Securing a Web Application | Spring Guides](https://spring.io/guides/gs/securing-web)
 
+### ✅ Résumé : Implémentation de JWT
+
+Ce tutoriel montre comment implémenter l'authentification par **JSON Web Token (JWT)** dans une application Spring Boot.  
+Voici les principales étapes du processus :
+
+1. Un **filtre d’authentification JWT** extrait et valide le token depuis l’en-tête de la requête.  
+2. **Mettre en liste blanche** certaines routes API et protéger celles qui nécessitent un token.  
+3. Réaliser l’authentification, générer le **JWT**, et définir un **temps d’expiration**.  
+4. Utiliser le JWT généré pour accéder aux routes protégées.  
+5. **Intercepter les exceptions d’authentification** afin de personnaliser la réponse envoyée au client.  
+
+---
+
 ---
 
 ## 📝 Implémentation de l’authentification JWT
