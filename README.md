@@ -10,7 +10,13 @@ Guide officiel pour sécuriser une application web avec Spring Security :
 
 [Securing a Web Application | Spring Guides](https://spring.io/guides/gs/securing-web)
 
-### ✅ Résumé : Implémentation de JWT
+---
+
+## 📝 Implémentation de l’authentification JWT
+
+Tutoriel détaillé pour implémenter **JWT (JSON Web Token)** dans Spring Boot 3 :
+
+[Implement JWT authentication in a Spring Boot 3 application](https://medium.com/@tericcabrel/implement-jwt-authentication-in-a-spring-boot-3-application-5839e4fd8fac)
 
 Ce tutoriel montre comment implémenter l'authentification par **JSON Web Token (JWT)** dans une application Spring Boot.  
 Voici les principales étapes du processus :
@@ -25,19 +31,12 @@ Voici les principales étapes du processus :
 
 ---
 
-## 📝 Implémentation de l’authentification JWT
-
-Tutoriel détaillé pour implémenter **JWT (JSON Web Token)** dans Spring Boot 3 :
-
-[Implement JWT authentication in a Spring Boot 3 application](https://medium.com/@tericcabrel/implement-jwt-authentication-in-a-spring-boot-3-application-5839e4fd8fac)
-
----
-
 ## 👥 Contrôle d’accès basé sur les rôles (RBAC)
 
 Tutoriel pour mettre en place un **Role-Based Access Control** dans Spring Boot 3 :
 
 [Implement Role-based Access Control in Spring Boot 3](https://medium.com/@tericcabrel/implement-role-based-access-control-in-spring-boot-3-a31c87c2be5c)
+
 
 ---
 

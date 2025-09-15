@@ -34,7 +34,7 @@ public class SecurityConfiguration {
         .csrf(csrf -> csrf.disable())
         .authorizeHttpRequests(auth -> auth
             .requestMatchers("/auth/**").permitAll()
-           .requestMatchers("/swagger-ui/**", "/v3/**").permitAll()   
+            .requestMatchers("/swagger-ui/**", "/v3/**", "/redoc.html").permitAll()   
             .anyRequest().authenticated()
         )
         .sessionManagement(session -> session
