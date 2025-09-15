@@ -7,8 +7,7 @@ import com.thomas.auth_api.responses.LoginResponse;
 import com.thomas.auth_api.services.AuthenticationService;
 import com.thomas.auth_api.services.JwtService;
 
-import io.swagger.v3.oas.annotations.Operation;
-import io.swagger.v3.oas.annotations.tags.Tag;
+
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/auth")
 @RestController
-@Tag(name = "Authentication", description = "Endpoints pour l'authentification")
 public class AuthenticationController {
     private final JwtService jwtService;
     
@@ -36,7 +34,7 @@ public class AuthenticationController {
         return ResponseEntity.ok(registeredUser);
     }
 
-    @Operation(summary = "Connexion utilisateur", description = "Génère un JWT pour un utilisateur valide")
+
     @PostMapping("/login")
     public ResponseEntity<LoginResponse> authenticate(@RequestBody LoginUserDto loginUserDto) {
         User authenticatedUser = authenticationService.authenticate(loginUserDto);
