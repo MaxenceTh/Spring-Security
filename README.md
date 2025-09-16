@@ -37,6 +37,17 @@ Tutoriel pour mettre en place un **Role-Based Access Control** dans Spring Boot 
 
 [Implement Role-based Access Control in Spring Boot 3](https://medium.com/@tericcabrel/implement-role-based-access-control-in-spring-boot-3-a31c87c2be5c)
 
+Ce projet illustre comment mettre en place un **Role Based Access Control (RBAC)** dans une application Spring Boot.
+Voici les principales étapes du processus : 
+
+1. Créer l'entité **Role** et la couche d'accès aux données (Repository).
+2. Associer l'entité **User** à un **Role**.
+3. Exposer le rôle de l'utilisateur dans le contexte d'authentification.
+4. Activer la sécurité par méthodes avec Spring Security.
+5. Protéger les routes avec les annotations de sécurité.
+- **@PreAuthorize("isAuthenticated()")** --> accessible uniquement aux utilisateurs connectés.
+- **@PreAuthorize("hasRole('ADMIN')")** --> accessible uniquement aux admins
+- **@PreAuthorize("hasAnyRole('USER', "ADMIN")")** --> accessible à plusieurs types de rôles.
 
 ---
 
