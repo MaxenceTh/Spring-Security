@@ -66,5 +66,5 @@ Voici les principales étapes du processus :
 - [securing-web](./securing-web) → Projet issu du guide officiel Spring Security  
 - [auth-api](./auth-api) → Implémentation JWT et RBAC avec Spring Boot 3  
     - ### 📖 Documentation détaillée
-        - [configs](./auth-api/docs/configs/md)
+        - [configs](./auth-api/docs/configs.md)
 
