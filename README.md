@@ -10,6 +10,9 @@ Guide officiel pour sécuriser une application web avec Spring Security :
 
 [Securing a Web Application | Spring Guides](https://spring.io/guides/gs/securing-web)
 
+L'implémentation locale : [securing-web](./securing-web)
+
+
 ---
 
 ## 📝 Implémentation de l’authentification JWT
